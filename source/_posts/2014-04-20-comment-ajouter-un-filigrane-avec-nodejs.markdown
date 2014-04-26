@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comment ajouter un filigrane avec nodejs?"
-date: 2014-04-26 13:52:25 +0100
+date: 2014-04-20 13:52:25 +0100
 comments: true
 categories: [NodeJS, Astuces]
 ---

@@ -93,11 +93,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: k42
+disqus_short_name: webnux
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id: UA-46720826-1
+google_analytics_tracking_id: UA-50420014-1
 
 # Facebook Like
 facebook_like: true
