@@ -1,0 +1,9 @@
+---
+layout: page
+title: "404 Page Not Found"
+comments: false
+sharing: false
+footer: false
+---
+
+{% img center /images/404.png %}

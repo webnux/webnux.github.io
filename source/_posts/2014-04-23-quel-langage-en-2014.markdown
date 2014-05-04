@@ -4,6 +4,7 @@ title: "Quel langage de programmation en 2014?"
 date: 2014-04-23 15:56:58 +0200
 comments: true
 categories: [Web, Langages, Programmation]
+description: Quel langage de programmation allez-vous utiliser en 2014 pour vos projets web?  Est-ce que vous allez coder votre site en php, python, javascript, ou en ruby? Vous ne savez pas encore?
 ---
 
 Quel langage de programmation allez-vous utiliser en 2014 pour vos projets web?  Est-ce que vous allez coder votre site en php, python, javascript, ou en ruby? Vous ne savez pas encore? Je vais essayé de résumer les différents langages de programmation existants. Ensuite nous verons dans un autre article, les différents framework existants dans chaque langages.

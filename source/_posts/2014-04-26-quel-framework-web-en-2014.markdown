@@ -4,6 +4,7 @@ title: "Quel framework Web en 2014?"
 date: 2014-04-26 15:56:58 +0200
 comments: true
 categories: [Web, Frameworks]
+description: Quel framework web allez-vous utiliser en 2014? Laravel, Django, Ruby On Rails, Play Framework ou encore Express.Js avec Node.Js?
 ---
 
 Enfin, on peut parler de framework maintenant qu'on a abordé les langages de programmation pour le web. Par exemple en PHP vous avez plusieurs framework : Codeigniter, CakePHP, Laravel, Symfony, Yii, Zend Framework. En Ruby vous avez Ruby On rails et Sinatra. En python vous avez Django et flask. Avec NodeJs, vous avez Express.js, Sails.js, total.js

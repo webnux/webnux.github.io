@@ -4,6 +4,7 @@ title: "Comment ajouter un filigrane avec nodejs?"
 date: 2014-04-20 13:52:25 +0100
 comments: true
 categories: [NodeJS, Astuces]
+description: Vous avez un site de vidéo et vous voulez ajouter un bouton play incrusté à la minuature de la vidéo. Vous voulez savoir comment faire ceci en NodeJs?
 ---
 
 
