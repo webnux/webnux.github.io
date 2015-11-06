@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Catégorie : Astuces | WebNuX.fr]]></title>
+  <link href="http://webnux.fr/categories/astuces/atom.xml" rel="self"/>
+  <link href="http://webnux.fr/"/>
+  <updated>2015-11-06T16:37:33+01:00</updated>
+  <id>http://webnux.fr/</id>
+  <author>
+    <name><![CDATA[Sri Ram]]></name>
+    <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Comment ajouter un filigrane avec nodejs?]]></title>
+    <link href="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/"/>
+    <updated>2014-04-20T14:52:25+02:00</updated>
+    <id>http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs</id>
+    <content type="html"><![CDATA[<p>Je me suis demandé comment faire pour incrusté un bouton play avec nodejs&hellip;</p>
+
+<h2>Par exemple :</h2>
+
+<p>Vous avez un site de vidéo et vous voulez ajouter un bouton play incrusté à la minuature de la vidéo.</p>
+
+<p>Cela peut etre pour divers raison, par exemple dans mon cas je souhaite optimisé le taux de clique lorsque qu'une vidéo d'un de mes sites est partagé sur facebook ou autres réseaux sociaux. comment faire?</p>
+
+<!-- more -->
+
+
+<h2>Dépendances</h2>
+
+<ul>
+<li>node</li>
+<li>npm</li>
+<li><a href="https://github.com/furagu/easy-gd">easy-gd</a></li>
+</ul>
+
+
+<h2>Installation</h2>
+
+<p>Vous devez d'abord installer easy-gd</p>
+
+<pre>
+npm install easy-gd
+</pre>
+
+
+<h2>Exemple de code pour l'incrustation du bouton play dans une image quelconque.</h2>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (watermark.js)</span> <a href='/downloads/code/watermark.js'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="c1">// Require library</span>
+</span><span class='line'><span class="nx">gd</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;easy-gd&#39;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Open an image</span>
+</span><span class='line'><span class="nx">gd</span><span class="p">.</span><span class="nx">createFrom</span><span class="p">(</span><span class="s2">&quot;original.jpg&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">image</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">// Resize image to fit into 480x360</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">thumb</span> <span class="o">=</span> <span class="nx">image</span><span class="p">.</span><span class="nx">resized</span><span class="p">({</span><span class="nx">width</span><span class="o">:</span> <span class="mi">480</span><span class="p">,</span> <span class="nx">height</span><span class="o">:</span> <span class="mi">360</span><span class="p">})</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Open watermark image</span>
+</span><span class='line'>    <span class="nx">gd</span><span class="p">.</span><span class="nx">createFrom</span><span class="p">(</span><span class="s1">&#39;watermark.png&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">watermark</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// Put the watermark at the center of the image</span>
+</span><span class='line'>        <span class="nx">thumb</span><span class="p">.</span><span class="nx">watermark</span><span class="p">(</span><span class="nx">watermark</span><span class="p">,</span> <span class="p">{</span><span class="nx">x</span><span class="o">:</span><span class="mf">0.5</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span><span class="mf">0.5</span><span class="p">})</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="c1">// Save result with target format inherited from the source image</span>
+</span><span class='line'>        <span class="c1">// {ext} gets automatically replaced with &#39;jpg&#39;</span>
+</span><span class='line'>        <span class="nx">thumb</span><span class="p">.</span><span class="nx">save</span><span class="p">(</span><span class="s1">&#39;resized.{ext}&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">jpegquality</span><span class="o">:</span> <span class="mi">90</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">watermark</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Done&#39;</span><span class="p">)</span>
+</span><span class='line'>        <span class="p">})</span>
+</span><span class='line'>    <span class="p">})</span>
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>Executez le code !</h2>
+
+<pre>
+node watermarking.js
+</pre>
+
+
+<h2>Résultats</h2>
+
+<p>Nous avons cette image :</p>
+
+<p><img src="http://webnux.fr/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
+
+<p>Nous voulons incruster un bouton play dans notre image (de format png pour la transparence) :</p>
+
+<p><img src="http://webnux.fr/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
+
+<p>Le résultat obtenue grâce à nodejs et easy-gd :</p>
+
+<p><img src="http://webnux.fr/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
+
+<h2>Conclusion</h2>
+
+<p>On peut facilement intégrer ce code sur notre site en production. On peut aussi parcourir toutes les images d'un dossier et incruster le bouton play sans avoir à utiliser photoshop ou gimp.</p>
+]]></content>
+  </entry>
+  
+</feed>

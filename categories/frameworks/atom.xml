@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Catégorie : Frameworks | WebNuX.fr]]></title>
+  <link href="http://webnux.fr/categories/frameworks/atom.xml" rel="self"/>
+  <link href="http://webnux.fr/"/>
+  <updated>2015-11-06T16:37:33+01:00</updated>
+  <id>http://webnux.fr/</id>
+  <author>
+    <name><![CDATA[Sri Ram]]></name>
+    <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quel framework Web en 2014?]]></title>
+    <link href="http://webnux.fr/quel-framework-web-en-2014/"/>
+    <updated>2014-04-26T15:56:58+02:00</updated>
+    <id>http://webnux.fr/quel-framework-web-en-2014</id>
+    <content type="html"><![CDATA[<p>Enfin, on peut parler de framework maintenant qu'on a abordé les langages de programmation pour le web. Par exemple en PHP vous avez plusieurs framework : Codeigniter, CakePHP, Laravel, Symfony, Yii, Zend Framework. En Ruby vous avez Ruby On rails et Sinatra. En python vous avez Django et flask. Avec NodeJs, vous avez Express.js, Sails.js, total.js</p>
+
+<p><img class="center" src="/images/posts/framework-web/popularite-framework-php.png"></p>
+
+<!-- more -->
+
+
+<h1>En PHP</h1>
+
+<h2>CodeIgniter</h2>
+
+<p>Très simpliste, mais rapide aussi.<br />
+&ndash;> Conseillé pour des petits projets.</p>
+
+<h2>CakePHP</h2>
+
+<p>Beaucoup de concepts de Ruby On Rails ont été copié dans ce framework. L’un des premiers à avoir copier Ruby On Rails mais ce n’est pas le dernier.</p>
+
+<h2>Laravel</h2>
+
+<p>On retrouve aussi plusieurs concepts présent dans Ruby On Rails dans ce framework. (Migrations, Seeds, Crud, MVC, Tests, Routes&hellip;)
+Ce framework est très flexible, on peut vraiment tout faire avec. Laravel monte en puissance et la communauté ne cesse de grandir. En seulement quelques années d'existances, le trafic du site de Laravel a grandit de façon exponentielle.</p>
+
+<p><img class="center" src="/images/posts/framework-web/le-success-de-laravel.png"></p>
+
+<h2>Symfony2</h2>
+
+<p>Symfony est un framework MVC libre écrit en PHP 5. En tant que framework, il facilite et accélère le développement de sites et d'applications Internet et Intranet.</p>
+
+<h1>En Python</h1>
+
+<h2>Django</h2>
+
+<p>Django est un framework open-source de développement web en Python. Il a pour but de rendre le développement web 2.0 simple et rapide.</p>
+
+<h2>Flask</h2>
+
+<p>Flask est un framework léger de développement web en Python. Flask est en réalité un micro-framework puisqu'il n'y a que le coeur du framework. Il n'y a pas de couche d'abstraction de base de données, ni de moteur de templates, ni de validation de formulaire ou tout autre composant.</p>
+
+<h1>En Ruby</h1>
+
+<h2>Ruby On rails</h2>
+
+<p>Ruby on Rails, également appelé RoR ou Rails est un framework web libre écrit en Ruby. Il suit le motif de conception Modèle-Vue-Contrôleur aussi nommé MVC. En tant que framework, il propose une structure au programmeur qui lui permet de développer plus vite et plus intuitivement. Il ajoute aussi un grand niveau d'abstraction dans la programmation de l'application par un ensemble de fonctions de haut niveau qui lui offre ainsi l'économie d'écrire lui-même la plupart des routines obligatoires d'une application web.</p>
+
+<h2>Sinatra</h2>
+
+<p>à l'instar de Flask en Python, Sinatra est micro-framework web écrit en Ruby. C'est une alternative à d'autres framework d'applications Web Ruby tels que Ruby on Rails, Merb, Nitro et Camping. Elle dépend du serveur web en rack.</p>
+
+<h1>En Javascript (NodeJS)</h1>
+
+<p>Node.js est une plateforme logicielle libre et événementielle en JavaScript orientée vers les applications réseau qui doivent pouvoir monter en charge. Elle utilise la machine virtuelle V8. Node.js contient une bibliothèque de serveur HTTP intégrée, ce qui rend possible de faire tourner un serveur web sans avoir besoin d'un logiciel externe comme Apache ou Lighttpd, et permettant de mieux contrôler la façon dont le serveur web fonctionne.</p>
+
+<h2>Les Frameworks très populaires pour Node.js</h2>
+
+<p>Express<br />
+Socket.io<br />
+GeddyJS<br />
+TowerJS<br />
+Flatiron<br />
+Meteor<br />
+nCombo &ndash; Un framework pour le cloud<br />
+TestCafé<br />
+Mongoose &ndash; Une couche de persistance pour MongoDB<br />
+Grunt &ndash; Un outil d'automatisation des tâches<br /></p>
+
+<h1>Communauté Opensource</h1>
+
+<h3>Classement Alexa / en terme de trafic web</h3>
+
+<p>1) LARAVEL<br />
+2) DJANGO<br />
+3) NODEJS <br />
+4) RAILS<br />
+5) EXPRESS<br /></p>
+
+<h3>Classement Github / nombre de favoris</h3>
+
+<p>1) NODEJS (29176)<br />
+2) RAILS (21596)<br />
+3) EXPRESS (13551)<br />
+4) DJANGO (9552)<br />
+5) LARAVEL (9510)<br /></p>
+
+<h3>Classement Github / nombre de fork</h3>
+
+<p>1) RAILS (7867)<br />
+2) NODEJS (6227)<br />
+3) DJANGO (3618)<br />
+4) LARAVEL (3097)<br />
+5) EXPRESS (2508)<br /></p>
+
+<h1>Conclusion</h1>
+
+<p>Pour ma part, je vous conseille d'utiliser le framework qui vous plaît. Il parait que Node.js c'est super rapide mais personnellement je trouve que c'est un gros bordel à maintenir surtout le Javascript et ses callbacks à gogo :/ <br /><br /></p>
+
+<p>Si vous aimez le Ruby, essayez Ruby on Rails. Si vous aimez Python, essayez Django, Si vous aimez le PHP, essayer Laravel. Si vous êtes sado-maso, utilisez NodeJs/ExpressJs/JQuery et codez full JavaScript.</p>
+]]></content>
+  </entry>
+  
+</feed>

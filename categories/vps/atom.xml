@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Catégorie : VPS | WebNuX.fr]]></title>
+  <link href="http://webnux.fr/categories/vps/atom.xml" rel="self"/>
+  <link href="http://webnux.fr/"/>
+  <updated>2015-11-06T16:37:33+01:00</updated>
+  <id>http://webnux.fr/</id>
+  <author>
+    <name><![CDATA[Sri Ram]]></name>
+    <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quel serveur VPS en 2014?]]></title>
+    <link href="http://webnux.fr/quel-serveur-vps-en-2014/"/>
+    <updated>2014-05-04T14:56:58+02:00</updated>
+    <id>http://webnux.fr/quel-serveur-vps-en-2014</id>
+    <content type="html"><![CDATA[<p>J'ai testé pour vous pendant 2 mois plusieurs serveurs VPS dont un serveur VPS OVH Classic, deux serveurs VPS Dedimax, 3 serveurs cloud chez digitalocean, un serveur cloud chez E-C.com et un serveur VPS firstheberg.</p>
+
+<h1>Cloud et/ou VPS?</h1>
+
+<p>Un VPS (Virtual Private Server) est un serveur virtuel configuré sur un serveur physique. Sur un VPS, vous possédez un accès complet à votre serveur virtuel (accès root). Les coûts sont réduits car plusieurs serveurs virtuels sont configurés sur un serveur physique.<br /></p>
+
+<p>Je ne vois pas de grosse différence entre un serveur cloud et un serveur VPS. Mais en gros un serveur cloud c'est un serveur virtualisé sur un <strong>cluster de machines</strong> pour vous permettre de rajouter de la ram, de l'espace ou cpu sur demande.</p>
+
+<p><img class="center" src="/images/posts/cloud/serveurs.png"></p>
+
+<!-- more -->
+
+
+<p>Comparons maintenant les différents hébergeurs&hellip; :)</p>
+
+<h1>L'interface d'administration des hébergeurs</h1>
+
+<h2>DigitalOcean</h2>
+
+<p><img class="center" src="/images/posts/cloud/digitalocean-cloud-manager.png"></p>
+
+<h2>OVH</h2>
+
+<p><img class="center" src="/images/posts/cloud/ovh-vps-manager.jpg"></p>
+
+<h2>FirstHeberg</h2>
+
+<p><img class="center" src="/images/posts/cloud/firstheberg-vps-manager.png"></p>
+
+<h2>Dedimax</h2>
+
+<p><img class="center" src="/images/posts/cloud/dedimax-vps-manager.jpg"></p>
+
+<h2>E-C</h2>
+
+<p><img class="center" src="/images/posts/cloud/ec-vps-manager.png"></p>
+
+<h1>Uptime des serveurs VPS et Cloud</h1>
+
+<h2>OVH</h2>
+
+<p>Très bon uptime sur 30 jours.</p>
+
+<h2>Dedimax</h2>
+
+<p>Ils ont des serveurs chez OVH, le uptime est bon aussi. ;)</p>
+
+<h2>DigitalOcean</h2>
+
+<p>Le uptime est bon, ils ont plusieurs datacenters. Mes serveurs sont à Amsterdam. Vous avez le choix entre New york, San Francisco, Amsterdam pour l'Europe et Singapour pour l'Asie.</p>
+
+<h2>First Heberg</h2>
+
+<p>J'ai eu beaucoup de downtime chez firstheberg, vraiment très déçu. Mais c'est des downtimes court 5min à 10min et c'est reparti. Mais ça peut être un point critique en fonction de vos besoins.</p>
+
+<h2>E-C.com</h2>
+
+<p>Je déconseille leurs serveurs cloud, des downtimes allant de 30min à 2heures&hellip; C'est vraiment la roulette russe.</p>
+
+<h1>Le prix des serveurs VPS/Cloud</h1>
+
+<ul>
+<li>VPS FIRST HEBERG : 1,79 € TTC / mois</li>
+<li>VPS DEDIMAX : 2.38€ TTC / mois</li>
+<li>VPS OVH CLOUD CLASSIC : 2,39 € TTC / mois</li>
+<li>DIGITAL OCEAN : 3,7 € TTC / mois</li>
+<li>E-C CLOUD : 3,95 € TTC / mois</li>
+</ul>
+
+
+<h1>La configuration des serveurs</h1>
+
+<ul>
+<li>VPS FIRST HEBERG : 1 vCore, 1Go RAM, 20 Go espace disque, 100mbps (non garanti*)</li>
+<li>VPS DEDIMAX : 1 vCore (3,1 GHz+), 1Go RAM, 10 Go espace disque, 100mbps (limitation 50 To)</li>
+<li>VPS OVH CLOUD CLASSIC : 1 vCore, 1Go RAM, 10 Go espace disque (Raid 10), 100mbps (Garantis jusqu'à 10 000 Go de données transférées par mois, puis 1 Mbps)</li>
+<li>DIGITAL OCEAN #1 : 1 vCore, 512Mb RAM, 20 Go espace SSD, 1Gbps (1TB de transfert, 2cents / GB au dela&hellip;)</li>
+<li>E-C CLOUD : 1 vCore, 1Go RAM, 50 Go espace disque, 100mbps (Bande passante Illimitée d'où l'abus&hellip;)</li>
+</ul>
+
+
+<blockquote><p>*Le réseau fournit est de 100 Mb/s vers internet. La garantie de service est Best-Effort. Le réseau est mutualisé à l'ensemble de l'infrastructure VPS et la disponibilité du réseau est liée à l'utilisation de l'ensemble des utilisateurs.</p></blockquote>
+
+<h1>Speed tests des serveurs VPS et Cloud</h1>
+
+<h2>VPS Cloud DigitalOcean (DataCentre à Amsterdam)</h2>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 669.88 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 242.35 Mbit/s</p></blockquote>
+
+<h2>VPS OVH Classic</h2>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 121.43 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 98.58 Mbit/s</p></blockquote>
+
+<h3>à titre de comparaison pour un serveur kimsufi :</h3>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 93.76 Mbits/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 90.35 Mbits/s</p></blockquote>
+
+<h3>et le meilleur pour la fin, un serveur So You Start d'OVH :</h3>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 444.26 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 172.62 Mbit/s</p></blockquote>
+
+<h2>VPS FirstHeberg</h2>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 501.83 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 166.85 Mbit/s</p></blockquote>
+
+<h2>VPS Dedimax</h2>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 475.50 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 149.81 Mbit/s</p></blockquote>
+
+<h2>VPS E-C.com</h2>
+
+<blockquote><p>Testing download speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</p>
+
+<p>Download: 49.03 Mbit/s</p>
+
+<p>Testing upload speed&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..</p>
+
+<p>Upload: 69.21 Mbit/s</p></blockquote>
+
+<h1>Le support des hébegeurs</h1>
+
+<h2>OVH</h2>
+
+<p>Jamais eu de problème.</p>
+
+<h2>Dedimax</h2>
+
+<p>De même.</p>
+
+<h2>First Heberg</h2>
+
+<p>Je ne les toujours pas contacté même si je devrais les contacter pour connaitre la source des downtimes&hellip; Mais bon je ne souhaite pas poursuivre mon abonnement chez eux donc voilà. Leurs services va peut être s'améliorer avec le temps, ils n'ont pas non plus les mêmes capacités qu'OVH, le géant.</p>
+
+<h2>Digital Ocean</h2>
+
+<p>J'ai eu un problème sur l'interfaces d'administration des serveurs cloud. J'ai ouvert un ticket et j'ai eu une réponse dans la minute&hellip; :)</p>
+
+<h2>E-C.com</h2>
+
+<p>Le support est trop long, 2 semaines pour répondre à un ticket&hellip; WTF?</p>
+
+<h1>Conclusion</h1>
+
+<p>Je vous conseille de tester les serveurs VPS OVH classic et les serveurs chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a>.</p>
+
+<p>Ce que j'aime chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a> c'est la possibilité de faire des backups de votre serveur, la possibilité de déplacer votre serveur d'un datacenter à un autre en un seul clic. Par ailleurs avec <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a> vous avez la possibilité d'installer le système que vous voulez : Ubuntu, Arch Linux, Debian, Centos, Fedora et j'en passe. :)
+Chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a>, vous avez aussi la possiblité d'installer des distributions prête à l'emploi, comme par exemple (Ruby on Rails, Wordpress, Docker, Mean, GitLab, LAMP, Ghost, Dokku, Redmine) la plupart sont prête à l'emploi sur une version serveur d'Ubuntu LTS 12.04 ou 13.10 :)</p>
+]]></content>
+  </entry>
+  
+</feed>

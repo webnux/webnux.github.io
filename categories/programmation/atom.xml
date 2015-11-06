@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Catégorie : Programmation | WebNuX.fr]]></title>
+  <link href="http://webnux.fr/categories/programmation/atom.xml" rel="self"/>
+  <link href="http://webnux.fr/"/>
+  <updated>2015-11-06T16:37:33+01:00</updated>
+  <id>http://webnux.fr/</id>
+  <author>
+    <name><![CDATA[Sri Ram]]></name>
+    <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quel langage de programmation en 2014?]]></title>
+    <link href="http://webnux.fr/quel-langage-en-2014/"/>
+    <updated>2014-04-23T15:56:58+02:00</updated>
+    <id>http://webnux.fr/quel-langage-en-2014</id>
+    <content type="html"><![CDATA[<p>Quel langage de programmation allez-vous utiliser en 2014 pour vos projets web?  Est-ce que vous allez coder votre site en php, python, javascript, ou en ruby? Vous ne savez pas encore? Je vais essayé de résumer les différents langages de programmation existants. Ensuite nous verons dans un autre article, les différents framework existants dans chaque langages.</p>
+
+<!-- more -->
+
+
+<p>Comparons d'abord les langages de programmation.</p>
+
+<h1>Classement TIOBES d'Avril 2014</h1>
+
+<p>Retrouvez le classement complet <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">ici</a>.</p>
+
+<h2>En 7ème place, on a le PHP</h2>
+
+<p>Le PHP a été créé par Rasmus Lerdorf en 1994.
+C'est un langage interprété.
+PHP est influencé par Perl, C, C++ et Java.
+La dernière version de PHP est la version 5.5.11 (2 avril 2014)</p>
+
+<p>Pour plus d'information sur le PHP : <a href="http://fr.wikipedia.org/wiki/PHP">Cliquez ici</a></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (un_exemple_php.php)</span> <a href='/downloads/code/un_exemple_php.php'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="o">&lt;?</span><span class="nx">php</span>
+</span><span class='line'>    <span class="k">class</span> <span class="nc">Perso</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">const</span> <span class="no">PV_initial</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">;</span>
+</span><span class='line'>        <span class="k">private</span> <span class="nv">$PV</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">public</span> <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$PV</span> <span class="o">=</span> <span class="s1">&#39;N/A&#39;</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Paramètre optionnel</span>
+</span><span class='line'>            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">is_numeric</span><span class="p">(</span><span class="nv">$PV</span><span class="p">)</span> <span class="o">||</span> <span class="o">!</span><span class="p">(</span><span class="nv">$PV</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nv">$PV</span> <span class="o">&lt;</span> <span class="mi">100000000</span><span class="p">))</span>
+</span><span class='line'>                <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">PV</span> <span class="o">=</span> <span class="nx">self</span><span class="o">::</span><span class="na">PV_initial</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">else</span>
+</span><span class='line'>                <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">PV</span> <span class="o">=</span> <span class="nv">$PV</span><span class="p">;</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>        <span class="k">public</span> <span class="k">function</span> <span class="nf">getPV</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>            <span class="c1">// Accesseurs</span>
+</span><span class='line'>            <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">PV</span><span class="p">;</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">public</span> <span class="k">function</span> <span class="nf">isDead</span><span class="p">(){</span>
+</span><span class='line'>            <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">PV</span> <span class="o">==</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Création d&#39;une classe enfant de Perso </span>
+</span><span class='line'>    <span class="k">class</span> <span class="nc">Magicien</span> <span class="k">extends</span> <span class="nx">Perso</span> <span class="p">{</span>
+</span><span class='line'>        <span class="k">private</span> <span class="nv">$magie</span><span class="p">;</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Création d&#39;une instance de classe </span>
+</span><span class='line'>    <span class="nv">$perso</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Perso</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Utilisation de l&#39;objet </span>
+</span><span class='line'>    <span class="k">echo</span> <span class="s1">&#39;Votre personnage a &#39;</span> <span class="o">.</span> <span class="nv">$perso</span><span class="o">-&gt;</span><span class="na">getPV</span><span class="p">()</span> <span class="o">.</span> <span class="s1">&#39; PV.&#39;</span> <span class="o">.</span> <span class="nx">PHP_EOL</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Constantes de classes  </span>
+</span><span class='line'>    <span class="k">echo</span> <span class="s1">&#39;Le PV par défaut attribué à un nouveau personnage est de &#39;</span> <span class="o">.</span> <span class="nx">Perso</span><span class="o">::</span><span class="na">PV_initial</span> <span class="o">.</span> <span class="s1">&#39;.&#39;</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Destruction de l&#39;objet </span>
+</span><span class='line'>    <span class="nb">unset</span><span class="p">(</span><span class="nv">$perso</span><span class="p">);</span>
+</span><span class='line'><span class="cp">?&gt;</span><span class="x"></span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>En 8ème place, on a le Python</h2>
+
+<p>Le python a été créé par Guido van Rossum en 1990.
+C'est un language de programmation orienté objet.
+La dernière version de python est la version 3.4.0</p>
+
+<p>Pour plus d'information sur le Python : <a href="" title="http://fr.wikipedia.org/wiki/Python_(langage)">Cliquez ici</a></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (un_exemple_python.py)</span> <a href='/downloads/code/un_exemple_python.py'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='py'><span class='line'><span class="k">class</span> <span class="nc">Vector2D</span><span class="p">:</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span><span class='line'>        <span class="c"># On utilise un tuple pour stocker les coordonnées</span>
+</span><span class='line'>        <span class="bp">self</span><span class="o">.</span><span class="n">coords</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">__add__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+</span><span class='line'>        <span class="c"># L&#39;instruction a+b sera résolue comme a.__add__(b)</span>
+</span><span class='line'>        <span class="c"># On construit un objet Vector2D à partir des coordonnées propres à l&#39;objet, et à l&#39;autre opérande</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">Vector2D</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="n">other</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">other</span><span class="o">.</span><span class="n">coords</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span class='line'>        <span class="c"># L&#39;affichage de l&#39;objet dans l&#39;interpréteur</span>
+</span><span class='line'>        <span class="k">return</span> <span class="s">&quot;Vector2D(</span><span class="si">%s</span><span class="s">, </span><span class="si">%s</span><span class="s">)&quot;</span> <span class="o">%</span><span class="bp">self</span><span class="o">.</span><span class="n">coords</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">a</span> <span class="o">=</span> <span class="n">Vector2D</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">Vector2D</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+</span><span class='line'><span class="k">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="c"># Vector2D(4, 6)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>En 9ème place, on a le JavaScript</h2>
+
+<p>Le javascript est un langage de scripting côté client créé par Brendan Eich en 1995.
+C'est un langage a faible typage.</p>
+
+<p>Pour plus d'information sur le Python : <a href="http://fr.wikipedia.org/wiki/Javascript">Cliquez ici</a></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (un_exemple_javascript.js)</span> <a href='/downloads/code/un_exemple_javascript.js'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'> <span class="kd">function</span> <span class="nx">MonPrototype</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">b</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>     <span class="k">return</span> <span class="s1">&#39;prototype&#39;</span><span class="p">;</span>
+</span><span class='line'>   <span class="p">};</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">e</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+</span><span class='line'> <span class="p">}</span>
+</span><span class='line'> <span class="kd">function</span> <span class="nx">MaClasse</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">c</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">d</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>     <span class="k">return</span> <span class="s1">&#39;classe&#39;</span><span class="p">;</span>
+</span><span class='line'>   <span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">e</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+</span><span class='line'> <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'> <span class="nx">MaClasse</span><span class="p">.</span><span class="nx">prototype</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MonPrototype</span><span class="p">();</span>
+</span><span class='line'>
+</span><span class='line'> <span class="nx">monObjet</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MaClasse</span><span class="p">();</span>
+</span><span class='line'>
+</span><span class='line'> <span class="nx">monObjet</span><span class="p">.</span><span class="nx">a</span><span class="p">;</span>   <span class="c1">// 1</span>
+</span><span class='line'> <span class="nx">monObjet</span><span class="p">.</span><span class="nx">b</span><span class="p">();</span> <span class="c1">// &#39;prototype&#39;</span>
+</span><span class='line'> <span class="nx">monObjet</span><span class="p">.</span><span class="nx">c</span><span class="p">;</span>   <span class="c1">// 2</span>
+</span><span class='line'> <span class="nx">monObjet</span><span class="p">.</span><span class="nx">d</span><span class="p">();</span> <span class="c1">// &#39;classe&#39;</span>
+</span><span class='line'> <span class="nx">monObjet</span><span class="p">.</span><span class="nx">e</span><span class="p">;</span>   <span class="c1">// 4</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h2>En 11ème place on a le Ruby</h2>
+
+<p>Le Ruby a été créé par Yukihiro Matsumoto en 1995.
+C'est un langage de programmation orienté objet. (1,2,3 &hellip; appartiennent à la classe Fixnum ^^)
+Le ruby est fortement influencé par Perl, Lisp, Python.
+C'est un langage à typage fort et dynamique.
+Parmis les projets en Ruby, on retrouve : Ruby On Rails, Chef, Puppet, Vagrant, Redmine, et pleins d'autres projets.</p>
+
+<p>Pour plus d'information sur le Ruby : <a href="http://fr.wikipedia.org/wiki/Ruby">Cliquez ici</a></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (un_exemple_ruby.rb)</span> <a href='/downloads/code/un_exemple_ruby.rb'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="k">module</span> <span class="nn">AnimalSkills</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">eat</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;I&#39;m eating !&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">move</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;I&#39;m moving !&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">express</span><span class="p">;</span> <span class="nb">puts</span> <span class="s2">&quot;I&#39;m expressing !&quot;</span> <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Animal</span>
+</span><span class='line'>  <span class="kp">include</span> <span class="no">AnimalSkills</span> <span class="c1"># mixin</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="vc">@@name</span> <span class="o">=</span> <span class="s1">&#39;an animal&#39;</span> <span class="c1"># variable de classe</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">initialize</span> <span class="n">size</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">color</span> <span class="c1"># initialisation des variables d&#39;instance</span>
+</span><span class='line'>    <span class="vi">@size</span> <span class="o">=</span> <span class="n">size</span><span class="o">.</span><span class="n">to_i</span>
+</span><span class='line'>    <span class="vi">@weight</span><span class="p">,</span> <span class="vi">@color</span> <span class="o">=</span> <span class="n">weight</span><span class="o">.</span><span class="n">to_i</span><span class="p">,</span> <span class="n">color</span><span class="o">.</span><span class="n">to_s</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">describe</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;I&#39;m </span><span class="si">#{</span><span class="vc">@@name</span><span class="si">}</span><span class="s2"> !&quot;</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;I&#39;m </span><span class="si">#{</span><span class="vi">@size</span><span class="si">}</span><span class="s2"> meter tall, I weigh </span><span class="si">#{</span><span class="vi">@weight</span><span class="si">}</span><span class="s2"> kilograms and I&#39;m &quot;</span> <span class="o">&lt;&lt;</span> <span class="vi">@color</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Zebra</span> <span class="o">&lt;</span> <span class="no">Animal</span> <span class="c1"># héritage</span>
+</span><span class='line'>  <span class="vc">@@name</span> <span class="o">=</span> <span class="s1">&#39;a zebra&#39;</span> <span class="c1"># rédéfinition de la variable de classe</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;black and white&#39;</span><span class="p">)</span> <span class="c1"># surcharge</span>
+</span><span class='line'>    <span class="k">super</span> <span class="c1"># appel de la méthode de la classe mère (Animal)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">z</span> <span class="o">=</span> <span class="no">Zebra</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">z</span><span class="o">.</span><span class="n">describe</span> <span class="c1"># =&gt; I&#39;m a zebra ! / I&#39;m 1 meter tall, I weigh 50 kilograms and I&#39;m black and white</span>
+</span><span class='line'><span class="n">z</span><span class="o">.</span><span class="n">eat</span> <span class="c1"># =&gt; I&#39;m eating !</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Je vous conseille d'essayer les différents langages de programmation pour avoir votre propre avis. Pour ma part je préfère de loin Ruby pour sa simplicité mais aussi pour son côté orienté objet. J'aime la syntaxe agréable à écrire et relire de Ruby. Il y a aussi beaucoup projets opensource (RoR, Puppet, Vagrant etc&hellip;) basés sur Ruby.</p>
+]]></content>
+  </entry>
+  
+</feed>

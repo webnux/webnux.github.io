@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Comment ajouter un filigrane avec nodejs? - WebNuX.fr</title>
+  <meta name="author" content="Sri Ram">
+
+  <meta name="description" content="Vous avez un site de vidéo et vous voulez ajouter un bouton play incrusté à la minuature de la vidéo. Vous voulez savoir comment faire ceci en NodeJs?">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="WebNuX.fr" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-50420014-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  	<h1><a href="/">WebNuX.fr</a></h1>
+    
+      <h2>un blog sur linux, le web et pleins d'autres choses</h2>
+    
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- webnux.fr - 234 x 60 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:234px;height:60px"
+     data-ad-client="ca-pub-8366045826431693"
+     data-ad-slot="8645490533"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:webnux.fr" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Comment ajouter un filigrane avec nodejs?</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-20T14:52:25+02:00" pubdate data-updated="true">20 avril 2014</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- webnux.fr - grand rectangle -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8366045826431693"
+     data-ad-slot="5692024134"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<div class="entry-content"><p>Je me suis demandé comment faire pour incrusté un bouton play avec nodejs&hellip;</p>
+
+<h2>Par exemple :</h2>
+
+<p>Vous avez un site de vidéo et vous voulez ajouter un bouton play incrusté à la minuature de la vidéo.</p>
+
+<p>Cela peut etre pour divers raison, par exemple dans mon cas je souhaite optimisé le taux de clique lorsque qu&#8217;une vidéo d&#8217;un de mes sites est partagé sur facebook ou autres réseaux sociaux. comment faire?</p>
+
+<!-- more -->
+
+
+<h2>Dépendances</h2>
+
+<ul>
+<li>node</li>
+<li>npm</li>
+<li><a href="https://github.com/furagu/easy-gd">easy-gd</a></li>
+</ul>
+
+
+<h2>Installation</h2>
+
+<p>Vous devez d&#8217;abord installer easy-gd</p>
+
+<pre>
+npm install easy-gd
+</pre>
+
+
+<h2>Exemple de code pour l&#8217;incrustation du bouton play dans une image quelconque.</h2>
+
+<figure class='code'><figcaption><span> (watermark.js)</span> <a href='/downloads/code/watermark.js'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="c1">// Require library</span>
+</span><span class='line'><span class="nx">gd</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;easy-gd&#39;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Open an image</span>
+</span><span class='line'><span class="nx">gd</span><span class="p">.</span><span class="nx">createFrom</span><span class="p">(</span><span class="s2">&quot;original.jpg&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">image</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">// Resize image to fit into 480x360</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">thumb</span> <span class="o">=</span> <span class="nx">image</span><span class="p">.</span><span class="nx">resized</span><span class="p">({</span><span class="nx">width</span><span class="o">:</span> <span class="mi">480</span><span class="p">,</span> <span class="nx">height</span><span class="o">:</span> <span class="mi">360</span><span class="p">})</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Open watermark image</span>
+</span><span class='line'>    <span class="nx">gd</span><span class="p">.</span><span class="nx">createFrom</span><span class="p">(</span><span class="s1">&#39;watermark.png&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">watermark</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// Put the watermark at the center of the image</span>
+</span><span class='line'>        <span class="nx">thumb</span><span class="p">.</span><span class="nx">watermark</span><span class="p">(</span><span class="nx">watermark</span><span class="p">,</span> <span class="p">{</span><span class="nx">x</span><span class="o">:</span><span class="mf">0.5</span><span class="p">,</span> <span class="nx">y</span><span class="o">:</span><span class="mf">0.5</span><span class="p">})</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="c1">// Save result with target format inherited from the source image</span>
+</span><span class='line'>        <span class="c1">// {ext} gets automatically replaced with &#39;jpg&#39;</span>
+</span><span class='line'>        <span class="nx">thumb</span><span class="p">.</span><span class="nx">save</span><span class="p">(</span><span class="s1">&#39;resized.{ext}&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">jpegquality</span><span class="o">:</span> <span class="mi">90</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">watermark</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Done&#39;</span><span class="p">)</span>
+</span><span class='line'>        <span class="p">})</span>
+</span><span class='line'>    <span class="p">})</span>
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Executez le code !</h2>
+
+<pre>
+node watermarking.js
+</pre>
+
+
+<h2>Résultats</h2>
+
+<p>Nous avons cette image :</p>
+
+<p><img src="/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
+
+<p>Nous voulons incruster un bouton play dans notre image (de format png pour la transparence) :</p>
+
+<p><img src="/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
+
+<p>Le résultat obtenue grâce à nodejs et easy-gd :</p>
+
+<p><img src="/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
+
+<h2>Conclusion</h2>
+
+<p>On peut facilement intégrer ce code sur notre site en production. On peut aussi parcourir toutes les images d&#8217;un dossier et incruster le bouton play sans avoir à utiliser photoshop ou gimp.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Sri Ram</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-20T14:52:25+02:00" pubdate data-updated="true">20 avril 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/astuces/'>Astuces</a>, <a class='category' href='/categories/nodejs/'>NodeJS</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/" data-via="webnuxfr" data-counturl="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right articlenav" href="/quel-langage-en-2014/" title="Next Post: Quel langage de programmation en 2014?">Quel langage de programmation en 2014? &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Articles récents</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/quel-serveur-vps-en-2014/">Quel serveur vps en 2014?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/quel-framework-web-en-2014/">Quel framework web en 2014?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/quel-langage-en-2014/">Quel langage de programmation en 2014?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/comment-ajouter-un-filigrane-avec-nodejs/">Comment ajouter un filigrane avec nodejs?</a>
+      </li>
+    
+  </ul>
+</section>
+
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- webnux.fr - content reactif -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8366045826431693"
+     data-ad-slot="5831624932"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - <a href="http://www.webnux.fr">WebNuX</a> est hébergé chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'webnux';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/';
+        var disqus_url = 'http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
