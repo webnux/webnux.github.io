@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Catégorie : Cloud | WebNuX.fr]]></title>
-  <link href="http://webnux.fr/categories/cloud/atom.xml" rel="self"/>
-  <link href="http://webnux.fr/"/>
-  <updated>2015-11-06T16:37:33+01:00</updated>
-  <id>http://webnux.fr/</id>
+  <link href="http://www.webnux.fr/categories/cloud/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-08T23:14:17+01:00</updated>
+  <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
     <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quel serveur VPS en 2014?]]></title>
-    <link href="http://webnux.fr/quel-serveur-vps-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-serveur-vps-en-2014/"/>
     <updated>2014-05-04T14:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-serveur-vps-en-2014</id>
+    <id>http://www.webnux.fr/quel-serveur-vps-en-2014</id>
     <content type="html"><![CDATA[<p>J'ai testé pour vous pendant 2 mois plusieurs serveurs VPS dont un serveur VPS OVH Classic, deux serveurs VPS Dedimax, 3 serveurs cloud chez digitalocean, un serveur cloud chez E-C.com et un serveur VPS firstheberg.</p>
 
 <h1>Cloud et/ou VPS?</h1>

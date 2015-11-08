@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://webnux.fr/sitemap.xml 
+Sitemap: http://www.webnux.fr/sitemap.xml 

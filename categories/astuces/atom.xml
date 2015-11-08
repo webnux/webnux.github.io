@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Catégorie : Astuces | WebNuX.fr]]></title>
-  <link href="http://webnux.fr/categories/astuces/atom.xml" rel="self"/>
-  <link href="http://webnux.fr/"/>
-  <updated>2015-11-06T16:37:33+01:00</updated>
-  <id>http://webnux.fr/</id>
+  <link href="http://www.webnux.fr/categories/astuces/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-08T23:14:17+01:00</updated>
+  <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
     <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Comment ajouter un filigrane avec nodejs?]]></title>
-    <link href="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/"/>
+    <link href="http://www.webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/"/>
     <updated>2014-04-20T14:52:25+02:00</updated>
-    <id>http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs</id>
+    <id>http://www.webnux.fr/comment-ajouter-un-filigrane-avec-nodejs</id>
     <content type="html"><![CDATA[<p>Je me suis demandé comment faire pour incrusté un bouton play avec nodejs&hellip;</p>
 
 <h2>Par exemple :</h2>
@@ -103,15 +103,15 @@ node watermarking.js
 
 <p>Nous avons cette image :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
 
 <p>Nous voulons incruster un bouton play dans notre image (de format png pour la transparence) :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
 
 <p>Le résultat obtenue grâce à nodejs et easy-gd :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
 
 <h2>Conclusion</h2>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Catégorie : Programmation | WebNuX.fr]]></title>
-  <link href="http://webnux.fr/categories/programmation/atom.xml" rel="self"/>
-  <link href="http://webnux.fr/"/>
-  <updated>2015-11-06T16:37:33+01:00</updated>
-  <id>http://webnux.fr/</id>
+  <link href="http://www.webnux.fr/categories/programmation/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-08T23:14:17+01:00</updated>
+  <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
     <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quel langage de programmation en 2014?]]></title>
-    <link href="http://webnux.fr/quel-langage-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-langage-en-2014/"/>
     <updated>2014-04-23T15:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-langage-en-2014</id>
+    <id>http://www.webnux.fr/quel-langage-en-2014</id>
     <content type="html"><![CDATA[<p>Quel langage de programmation allez-vous utiliser en 2014 pour vos projets web?  Est-ce que vous allez coder votre site en php, python, javascript, ou en ruby? Vous ne savez pas encore? Je vais essayé de résumer les différents langages de programmation existants. Ensuite nous verons dans un autre article, les différents framework existants dans chaque langages.</p>
 
 <!-- more -->

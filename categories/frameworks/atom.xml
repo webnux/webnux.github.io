@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Catégorie : Frameworks | WebNuX.fr]]></title>
-  <link href="http://webnux.fr/categories/frameworks/atom.xml" rel="self"/>
-  <link href="http://webnux.fr/"/>
-  <updated>2015-11-06T16:37:33+01:00</updated>
-  <id>http://webnux.fr/</id>
+  <link href="http://www.webnux.fr/categories/frameworks/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-08T23:14:17+01:00</updated>
+  <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
     <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quel framework Web en 2014?]]></title>
-    <link href="http://webnux.fr/quel-framework-web-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-framework-web-en-2014/"/>
     <updated>2014-04-26T15:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-framework-web-en-2014</id>
+    <id>http://www.webnux.fr/quel-framework-web-en-2014</id>
     <content type="html"><![CDATA[<p>Enfin, on peut parler de framework maintenant qu'on a abordé les langages de programmation pour le web. Par exemple en PHP vous avez plusieurs framework : Codeigniter, CakePHP, Laravel, Symfony, Yii, Zend Framework. En Ruby vous avez Ruby On rails et Sinatra. En python vous avez Django et flask. Avec NodeJs, vous avez Express.js, Sails.js, total.js</p>
 
 <p><img class="center" src="/images/posts/framework-web/popularite-framework-php.png"></p>

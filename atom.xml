@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[WebNuX.fr]]></title>
-  <link href="http://webnux.fr/atom.xml" rel="self"/>
-  <link href="http://webnux.fr/"/>
-  <updated>2015-11-06T16:37:33+01:00</updated>
-  <id>http://webnux.fr/</id>
+  <link href="http://www.webnux.fr/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-08T23:14:17+01:00</updated>
+  <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
     <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quel serveur VPS en 2014?]]></title>
-    <link href="http://webnux.fr/quel-serveur-vps-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-serveur-vps-en-2014/"/>
     <updated>2014-05-04T14:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-serveur-vps-en-2014</id>
+    <id>http://www.webnux.fr/quel-serveur-vps-en-2014</id>
     <content type="html"><![CDATA[<p>J&#8217;ai testé pour vous pendant 2 mois plusieurs serveurs VPS dont un serveur VPS OVH Classic, deux serveurs VPS Dedimax, 3 serveurs cloud chez digitalocean, un serveur cloud chez E-C.com et un serveur VPS firstheberg.</p>
 
 <h1>Cloud et/ou VPS?</h1>
@@ -26,7 +26,7 @@
 
 <p>Je ne vois pas de grosse différence entre un serveur cloud et un serveur VPS. Mais en gros un serveur cloud c&#8217;est un serveur virtualisé sur un <strong>cluster de machines</strong> pour vous permettre de rajouter de la ram, de l&#8217;espace ou cpu sur demande.</p>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/serveurs.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/serveurs.png"></p>
 
 <!-- more -->
 
@@ -37,23 +37,23 @@
 
 <h2>DigitalOcean</h2>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/digitalocean-cloud-manager.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/digitalocean-cloud-manager.png"></p>
 
 <h2>OVH</h2>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/ovh-vps-manager.jpg"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/ovh-vps-manager.jpg"></p>
 
 <h2>FirstHeberg</h2>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/firstheberg-vps-manager.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/firstheberg-vps-manager.png"></p>
 
 <h2>Dedimax</h2>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/dedimax-vps-manager.jpg"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/dedimax-vps-manager.jpg"></p>
 
 <h2>E-C</h2>
 
-<p><img class="center" src="http://webnux.fr/images/posts/cloud/ec-vps-manager.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/cloud/ec-vps-manager.png"></p>
 
 <h1>Uptime des serveurs VPS et Cloud</h1>
 
@@ -206,12 +206,12 @@ Chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</
   
   <entry>
     <title type="html"><![CDATA[Quel framework Web en 2014?]]></title>
-    <link href="http://webnux.fr/quel-framework-web-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-framework-web-en-2014/"/>
     <updated>2014-04-26T15:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-framework-web-en-2014</id>
+    <id>http://www.webnux.fr/quel-framework-web-en-2014</id>
     <content type="html"><![CDATA[<p>Enfin, on peut parler de framework maintenant qu&#8217;on a abordé les langages de programmation pour le web. Par exemple en PHP vous avez plusieurs framework : Codeigniter, CakePHP, Laravel, Symfony, Yii, Zend Framework. En Ruby vous avez Ruby On rails et Sinatra. En python vous avez Django et flask. Avec NodeJs, vous avez Express.js, Sails.js, total.js</p>
 
-<p><img class="center" src="http://webnux.fr/images/posts/framework-web/popularite-framework-php.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/framework-web/popularite-framework-php.png"></p>
 
 <!-- more -->
 
@@ -232,7 +232,7 @@ Chez <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</
 <p>On retrouve aussi plusieurs concepts présent dans Ruby On Rails dans ce framework. (Migrations, Seeds, Crud, MVC, Tests, Routes&hellip;)
 Ce framework est très flexible, on peut vraiment tout faire avec. Laravel monte en puissance et la communauté ne cesse de grandir. En seulement quelques années d&#8217;existances, le trafic du site de Laravel a grandit de façon exponentielle.</p>
 
-<p><img class="center" src="http://webnux.fr/images/posts/framework-web/le-success-de-laravel.png"></p>
+<p><img class="center" src="http://www.webnux.fr/images/posts/framework-web/le-success-de-laravel.png"></p>
 
 <h2>Symfony2</h2>
 
@@ -311,9 +311,9 @@ Grunt &ndash; Un outil d&#8217;automatisation des tâches<br /></p>
   
   <entry>
     <title type="html"><![CDATA[Quel langage de programmation en 2014?]]></title>
-    <link href="http://webnux.fr/quel-langage-en-2014/"/>
+    <link href="http://www.webnux.fr/quel-langage-en-2014/"/>
     <updated>2014-04-23T15:56:58+02:00</updated>
-    <id>http://webnux.fr/quel-langage-en-2014</id>
+    <id>http://www.webnux.fr/quel-langage-en-2014</id>
     <content type="html"><![CDATA[<p>Quel langage de programmation allez-vous utiliser en 2014 pour vos projets web?  Est-ce que vous allez coder votre site en php, python, javascript, ou en ruby? Vous ne savez pas encore? Je vais essayé de résumer les différents langages de programmation existants. Ensuite nous verons dans un autre article, les différents framework existants dans chaque langages.</p>
 
 <!-- more -->
@@ -334,7 +334,7 @@ La dernière version de PHP est la version 5.5.11 (2 avril 2014)</p>
 
 <p>Pour plus d&#8217;information sur le PHP : <a href="http://fr.wikipedia.org/wiki/PHP">Cliquez ici</a></p>
 
-<figure class='code'><figcaption><span> (un_exemple_php.php)</span> <a href='http://webnux.fr/downloads/code/un_exemple_php.php'>download</a></figcaption>
+<figure class='code'><figcaption><span> (un_exemple_php.php)</span> <a href='http://www.webnux.fr/downloads/code/un_exemple_php.php'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -422,7 +422,7 @@ La dernière version de python est la version 3.4.0</p>
 
 <p>Pour plus d&#8217;information sur le Python : <a href="" title="http://fr.wikipedia.org/wiki/Python_(langage)">Cliquez ici</a></p>
 
-<figure class='code'><figcaption><span> (un_exemple_python.py)</span> <a href='http://webnux.fr/downloads/code/un_exemple_python.py'>download</a></figcaption>
+<figure class='code'><figcaption><span> (un_exemple_python.py)</span> <a href='http://www.webnux.fr/downloads/code/un_exemple_python.py'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -467,7 +467,7 @@ C&#8217;est un langage a faible typage.</p>
 
 <p>Pour plus d&#8217;information sur le Python : <a href="http://fr.wikipedia.org/wiki/Javascript">Cliquez ici</a></p>
 
-<figure class='code'><figcaption><span> (un_exemple_javascript.js)</span> <a href='http://webnux.fr/downloads/code/un_exemple_javascript.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (un_exemple_javascript.js)</span> <a href='http://www.webnux.fr/downloads/code/un_exemple_javascript.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -531,7 +531,7 @@ Parmis les projets en Ruby, on retrouve : Ruby On Rails, Chef, Puppet, Vagrant, 
 
 <p>Pour plus d&#8217;information sur le Ruby : <a href="http://fr.wikipedia.org/wiki/Ruby">Cliquez ici</a></p>
 
-<figure class='code'><figcaption><span> (un_exemple_ruby.rb)</span> <a href='http://webnux.fr/downloads/code/un_exemple_ruby.rb'>download</a></figcaption>
+<figure class='code'><figcaption><span> (un_exemple_ruby.rb)</span> <a href='http://www.webnux.fr/downloads/code/un_exemple_ruby.rb'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -621,9 +621,9 @@ Parmis les projets en Ruby, on retrouve : Ruby On Rails, Chef, Puppet, Vagrant, 
   
   <entry>
     <title type="html"><![CDATA[Comment ajouter un filigrane avec nodejs?]]></title>
-    <link href="http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/"/>
+    <link href="http://www.webnux.fr/comment-ajouter-un-filigrane-avec-nodejs/"/>
     <updated>2014-04-20T14:52:25+02:00</updated>
-    <id>http://webnux.fr/comment-ajouter-un-filigrane-avec-nodejs</id>
+    <id>http://www.webnux.fr/comment-ajouter-un-filigrane-avec-nodejs</id>
     <content type="html"><![CDATA[<p>Je me suis demandé comment faire pour incrusté un bouton play avec nodejs&hellip;</p>
 
 <h2>Par exemple :</h2>
@@ -655,7 +655,7 @@ npm install easy-gd
 
 <h2>Exemple de code pour l&#8217;incrustation du bouton play dans une image quelconque.</h2>
 
-<figure class='code'><figcaption><span> (watermark.js)</span> <a href='http://webnux.fr/downloads/code/watermark.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (watermark.js)</span> <a href='http://www.webnux.fr/downloads/code/watermark.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -710,15 +710,15 @@ node watermarking.js
 
 <p>Nous avons cette image :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/original.jpg" class="center" alt="original" /></p>
 
 <p>Nous voulons incruster un bouton play dans notre image (de format png pour la transparence) :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/watermark.png" class="center" alt="watermark" /></p>
 
 <p>Le résultat obtenue grâce à nodejs et easy-gd :</p>
 
-<p><img src="http://webnux.fr/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
+<p><img src="http://www.webnux.fr/images/posts/watermarking/resized.jpg" class="center" alt="result" /></p>
 
 <h2>Conclusion</h2>
 
