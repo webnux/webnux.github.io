@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Catégorie : Ruby on Rails | WebNuX.fr]]></title>
+  <link href="http://www.webnux.fr/categories/ruby-on-rails/atom.xml" rel="self"/>
+  <link href="http://www.webnux.fr/"/>
+  <updated>2015-11-12T15:57:39+01:00</updated>
+  <id>http://www.webnux.fr/</id>
+  <author>
+    <name><![CDATA[Sri Ram]]></name>
+    <email><![CDATA[srinivasa.ramanujan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Comment se former à Ruby on Rails efficacement?]]></title>
+    <link href="http://www.webnux.fr/comment-se-former-a-rubyonrails/"/>
+    <updated>2015-11-12T14:56:58+01:00</updated>
+    <id>http://www.webnux.fr/comment-se-former-a-rubyonrails</id>
+    <content type="html"><![CDATA[<p>Il y a tellement de formations sur Ruby et Ruby on Rails, vous pouvez enchainer les livres, les vidéos, les tutos, &hellip; Et cela sur plusieurs plateforme : Rails Tutorial, Code School, Code Academy, Learn Ruby the Hard Way, Practicing Ruby, Lynda, Open Class Rooms.</p>
+
+<p>Mais une fois que vous avez fini toutes ces formations, vous vous rendez compte que c'est toujours le vide apres avoir exécuté cette commande :</p>
+
+<pre><code>`rails new mon_super_projet_web`
+</code></pre>
+
+<p>Pour apprendre Ruby on Rails sans souffrir, arrêter de suivre des tutorials sans les pratiquer.</p>
+
+<p><img class="center" src="/images/posts/apprendre-rubyonrails/rubyonrails.png"></p>
+
+<!-- more -->
+
+
+<h1>Comment faire pour progresser avec Ruby on Rails?</h1>
+
+<p>Si vous voulez maitriser Ruby on Rails, il faut se fixer des objectifs. Maitriser Ruby on Rails n'est pas un objectif atteignable en quelques minutes, en quelques heures, en quelques semaines, ni même en quelques mois.</p>
+
+<p>C'est le résultat de plusieurs étapes, allongé sur plusieurs années, qui vous permettra de devenir un expert en ruby on rails. C'est pourquoi il est important de pratiquer petit à petit Ruby et le framework web Ruby on Rails.</p>
+
+<p>Fixons nous des objectifs sur 7 jours et fesons un bilans à l'issus de ces 7 jours.</p>
+
+<h2>Le premier jour, j'install ruby</h2>
+
+<p>Je vais apprendre à installer ruby sur mon ordinateur, ça peut être dans un environnement Mac OS, Windows ou Linux</p>
+
+<h2>Le deuxième jour, j'apprends ruby</h2>
+
+<p>Je vais apprendre les bases du langages Ruby : Comment afficher du texte en ruby? Comment faire des tests conditionnelles en ruby? Comment faire des boucles en ruby?</p>
+
+<h2>Le troixième jours, j'apprends Ruby on Rails</h2>
+
+<p>Je vais apprendre à utiliser les generateurs de controlleurs, de models, de scaffolds, de migrations etc.</p>
+
+<h2>Le 4ème jour, j'apprends à modifier les views (les vues)</h2>
+
+<p>Je vais apprendre à modifier les vues dans mon projet rails : Comment j'incruste un template html dans mon projet Ruby on Rails? Comment je gère les css et le code javascript dans mon projet ruby on rails?</p>
+
+<h2>Le 5ème jour, j'apprends à créer des models</h2>
+
+<p>Comment faire pour créer des models? Comment gérer les relations entre les models? Relation un à un ? Relation un à plusieurs? Relation plusieurs à plusieurs (N-N)?</p>
+
+<h2>Le 6ème jour, j'apprends à utiliser les controlleurs, les routes</h2>
+
+<p>J'apprends à faire des controlleurs : ajout de données, modification de données, suppression de données</p>
+
+<h2>Le 7ème jour, j'apprends à deployer mon application Ruby on Rails sur un serveur web</h2>
+
+<p>Prenez un serveur pour apprendre tout en testons les fonctionnalités de ruby on rails. Je vous conseils <a href="https://www.digitalocean.com/?refcode=738b03b223c7">DigitalOcean</a>, un fournisseur de serveur cloud, pas chèr specialement conçu pour les développeurs.</p>
+
+<h1>Pratiquer pour maitriser Ruby On Rails</h1>
+
+<p>La meilleur façon d'apprendre, c'est de pratiquer. Arrêtez de rêver et mettez ce que vous avez appris en action.</p>
+
+<p>Apprennez les concepts avancés en fonction de votre projet et de vos besoins.</p>
+
+<p>Un schéma qui vous montre pourquoi ruby on rails à l'air compliqué par rapport au PHP, une fois toute les outils maitrisés vous gagnerais beaucoup de temps et d'argent avec Ruby on Rails. Le principal est d'apprendre en créant des micro site rails avec deux ou trois fonctionnalités histoire de gagner du temps et d'avoir plus de confiance en soit tout en limitant la probabilité de casser votre grosse application. Une fois les fonctionalités testé sur vos petites applications vous pouvez les inclures sur les grosses applications avec confiance les yeux fermés.</p>
+
+<p><img class="center" src="/images/posts/apprendre-rubyonrails/competances-rubyonrails.png"></p>
+]]></content>
+  </entry>
+  
+</feed>
