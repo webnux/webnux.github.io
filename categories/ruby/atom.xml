@@ -4,7 +4,7 @@
   <title><![CDATA[Catégorie : Ruby | WebNuX.fr]]></title>
   <link href="http://www.webnux.fr/categories/ruby/atom.xml" rel="self"/>
   <link href="http://www.webnux.fr/"/>
-  <updated>2015-11-12T15:57:39+01:00</updated>
+  <updated>2015-11-12T15:59:32+01:00</updated>
   <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
@@ -22,12 +22,12 @@
 
 <p>Mais une fois que vous avez fini toutes ces formations, vous vous rendez compte que c'est toujours le vide apres avoir exécuté cette commande :</p>
 
-<pre><code>`rails new mon_super_projet_web`
+<pre><code>rails new mon_super_projet_web
 </code></pre>
 
 <p>Pour apprendre Ruby on Rails sans souffrir, arrêter de suivre des tutorials sans les pratiquer.</p>
 
-<p><img class="center" src="/images/posts/apprendre-rubyonrails/rubyonrails.png"></p>
+<p><img class="center" src="/images/posts/apprendre-rubyonrails/ruby-on-rails.png"></p>
 
 <!-- more -->
 
