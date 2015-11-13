@@ -11,11 +11,11 @@ Il y a tellement de formations sur Ruby et Ruby on Rails, vous pouvez enchainer 
 
 Mais une fois que vous avez fini toutes ces formations, vous vous rendez compte que c'est toujours le vide apres avoir exécuté cette commande :
 
-	`rails new mon_super_projet_web`
+	rails new mon_super_projet_web
 
 Pour apprendre Ruby on Rails sans souffrir, arrêter de suivre des tutorials sans les pratiquer.
 
-{% img center /images/posts/apprendre-rubyonrails/rubyonrails.png %}
+{% img center /images/posts/apprendre-rubyonrails/ruby-on-rails.png %}
 
 <!-- more -->
 
@@ -25,7 +25,7 @@ Si vous voulez maitriser Ruby on Rails, il faut se fixer des objectifs. Maitrise
 
 C'est le résultat de plusieurs étapes, allongé sur plusieurs années, qui vous permettra de devenir un expert en ruby on rails. C'est pourquoi il est important de pratiquer petit à petit Ruby et le framework web Ruby on Rails.
 
-Fixons nous des objectifs sur 7 jours et fesons un bilans à l'issus de ces 7 jours.
+Fixons nous des objectifs sur 7 jours et fesons un bilans à l'issue de ces 7 jours.
 
 ## Le premier jour, j'install ruby
 
