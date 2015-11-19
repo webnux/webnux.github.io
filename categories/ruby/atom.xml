@@ -4,7 +4,7 @@
   <title><![CDATA[Catégorie : Ruby | WebNuX.fr]]></title>
   <link href="http://www.webnux.fr/categories/ruby/atom.xml" rel="self"/>
   <link href="http://www.webnux.fr/"/>
-  <updated>2015-11-19T11:15:32+01:00</updated>
+  <updated>2015-11-19T11:21:01+01:00</updated>
   <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
@@ -36,6 +36,9 @@
 </pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">chmod</span> <span class="mo">0755</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">monfichier</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
+<!-- more -->
+
+
 <p>On peut aussi convertir des permissions binaires en octales.</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>permissions.rb </span></figcaption>
@@ -51,7 +54,27 @@
 
 <p>Voilà, c'est simple n'est ce pas? Si vous avez des questions n'hésitez pas.</p>
 
-<!-- more -->
+<h1>Quelques ressources pour aller plus loin</h1>
+
+<h2>La documention de Ruby sur FileUtils :</h2>
+
+<ul>
+<li><a href="http://ruby-doc.org/stdlib-2.2.3/libdoc/fileutils/rdoc/FileUtils.html">http://ruby-doc.org/stdlib-2.2.3/libdoc/fileutils/rdoc/FileUtils.html</a></li>
+</ul>
+
+
+<h2>StackOverflow :</h2>
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/5020710/copy-a-file-creating-directories-as-necessary-in-ruby">http://stackoverflow.com/questions/5020710/copy-a-file-creating-directories-as-necessary-in-ruby</a></li>
+</ul>
+
+
+<h2>Api Dock :</h2>
+
+<ul>
+<li><a href="http://apidock.com/ruby/FileUtils">http://apidock.com/ruby/FileUtils</a></li>
+</ul>
 
 ]]></content>
   </entry>
