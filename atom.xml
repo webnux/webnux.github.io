@@ -4,7 +4,7 @@
   <title><![CDATA[WebNuX.fr]]></title>
   <link href="http://www.webnux.fr/atom.xml" rel="self"/>
   <link href="http://www.webnux.fr/"/>
-  <updated>2015-11-19T11:21:01+01:00</updated>
+  <updated>2015-11-19T11:26:24+01:00</updated>
   <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
@@ -53,7 +53,7 @@
 </pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">perms</span> <span class="o">=</span> <span class="m-Bin">0b111101101</span>
 </span><span class='line'><span class="n">perms</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
 </span><span class='line'>
-</span><span class='line'><span class="n">chmod</span> <span class="n">perms</span><span class="p">,</span> <span class="s1">&#39;mon fichier&#39;</span>
+</span><span class='line'><span class="n">chmod</span> <span class="n">perms</span><span class="p">,</span> <span class="s1">&#39;monfichier&#39;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
