@@ -4,7 +4,7 @@
   <title><![CDATA[WebNuX.fr]]></title>
   <link href="http://www.webnux.fr/atom.xml" rel="self"/>
   <link href="http://www.webnux.fr/"/>
-  <updated>2015-11-19T11:26:24+01:00</updated>
+  <updated>2015-11-19T11:47:02+01:00</updated>
   <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Comment écrire les entiers de façon à les lires plus facilement avec Ruby?]]></title>
+    <link href="http://www.webnux.fr/comment-ecrire-les-entiers-de-facon-a-les-lires-plus-facilement-avec-ruby/"/>
+    <updated>2015-11-20T11:32:39+01:00</updated>
+    <id>http://www.webnux.fr/comment-ecrire-les-entiers-de-facon-a-les-lires-plus-facilement-avec-ruby</id>
+    <content type="html"><![CDATA[<p>En Ruby vous avez la possibilité d&#8217;écrire les entiers de cette façon :</p>
+
+<figure class='code'><figcaption><span>entiers.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="mi">10000000000</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>équivaut à</p>
+
+<figure class='code'><figcaption><span>entiers.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="mi">10_000_000_000</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Vous n&#8217;êtes toujours pas convaincu?</p>
+
+<!-- more -->
+
+
+<p>Lancez irb et tester !</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>irb
+</span><span class='line'>irb<span class="o">(</span>main<span class="o">)</span>:002:0&gt; <span class="nv">10_000_000_000</span> <span class="o">==</span> <span class="nv">10000000000</span>
+</span><span class='line'><span class="o">=</span>&gt; <span class="nb">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>N&#8217;est ce pas visuellement plus simple? Votre avis m&#8217;intéresse!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Comment gérer les permissions des fichiers avec Ruby?]]></title>

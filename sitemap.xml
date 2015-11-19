@@ -29,11 +29,17 @@
         <lastmod>2015-11-19T11:22:34+01:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.webnux.fr/comment-ecrire-les-entiers-de-facon-a-les-lires-plus-facilement-avec-ruby/
+        </loc>
+        <lastmod>2015-11-19T11:42:33+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.webnux.fr/blog/archives/</loc>
-        <lastmod>2015-11-19T11:22:34+01:00</lastmod>
+        <lastmod>2015-11-19T11:42:33+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.webnux.fr/</loc>
-        <lastmod>2015-11-19T11:22:34+01:00</lastmod>
+        <lastmod>2015-11-19T11:42:33+01:00</lastmod>
     </url>
 </urlset>
