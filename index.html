@@ -86,6 +86,85 @@
   <header>
     
       <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/comment-gerer-les-permissions-en-ruby/">Comment gérer les permissions des fichiers avec ruby?</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-11-19T00:56:58+01:00" pubdate data-updated="true">19 novembre 2015</time>
+        
+         | <a href="/comment-gerer-les-permissions-en-ruby/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Aujourd&#8217;hui j&#8217;ai appris à gérer les permissions avec Ruby. C&#8217;est très simple, vous allez voir.</p>
+
+<p>Tout d&#8217;abord, on inclut la librairie fileutils.</p>
+
+<figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">require</span> <span class="s1">&#39;fileutils&#39;</span>
+</span><span class='line'><span class="kp">include</span> <span class="no">FileUtils</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ensuite, on fait un chmod, par exemple 755 sur un fichier qui s&#8217;appelle ici &ldquo;monfichier&rdquo;.</p>
+
+<figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">chmod</span> <span class="mo">0755</span><span class="p">,</span> <span class="s1">&#39;monfichier&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>On peut aussi convertir des permissions binaires en octales.</p>
+
+<figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">perms</span> <span class="o">=</span> <span class="m-Bin">0b111101101</span>
+</span><span class='line'><span class="n">perms</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">chmod</span> <span class="n">perms</span><span class="p">,</span> <span class="s1">&#39;mon fichier&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Voilà, c&#8217;est simple n&#8217;est ce pas? Si vous avez des questions n&#8217;hésitez pas.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/comment-gerer-les-permissions-en-ruby/">Continuer la lecture &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
         <h1 class="entry-title"><a href="/les-10-personnes-que-jaimerais-etre/">Les 10 personnes que j&#8217;aimerais être ! à la recherche de mes passions&#8230; </a></h1>
       
     
@@ -399,6 +478,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/comment-gerer-les-permissions-en-ruby/">Comment gérer les permissions des fichiers avec ruby?</a>
+      </li>
+    
+      <li class="post">
         <a href="/les-10-personnes-que-jaimerais-etre/">Les 10 personnes que j&#8217;aimerais être ! à la recherche de mes passions&#8230; </a>
       </li>
     
@@ -412,10 +495,6 @@
     
       <li class="post">
         <a href="/quel-framework-web-en-2014/">Quel framework web en 2014?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/quel-langage-en-2014/">Quel langage de programmation en 2014?</a>
       </li>
     
   </ul>

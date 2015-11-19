@@ -4,7 +4,7 @@
   <title><![CDATA[Catégorie : Ruby | WebNuX.fr]]></title>
   <link href="http://www.webnux.fr/categories/ruby/atom.xml" rel="self"/>
   <link href="http://www.webnux.fr/"/>
-  <updated>2015-11-13T02:20:54+01:00</updated>
+  <updated>2015-11-19T11:15:32+01:00</updated>
   <id>http://www.webnux.fr/</id>
   <author>
     <name><![CDATA[Sri Ram]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Comment gérer les permissions des fichiers avec Ruby?]]></title>
+    <link href="http://www.webnux.fr/comment-gerer-les-permissions-en-ruby/"/>
+    <updated>2015-11-19T00:56:58+01:00</updated>
+    <id>http://www.webnux.fr/comment-gerer-les-permissions-en-ruby</id>
+    <content type="html"><![CDATA[<p>Aujourd'hui j'ai appris à gérer les permissions avec Ruby. C'est très simple, vous allez voir.</p>
+
+<p>Tout d'abord, on inclut la librairie fileutils.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">require</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">fileutils</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span>
+</span><span class='line'><span class="kp">include</span> <span class="no">FileUtils</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Ensuite, on fait un chmod, par exemple 755 sur un fichier qui s'appelle ici &ldquo;monfichier&rdquo;.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">chmod</span> <span class="mo">0755</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">monfichier</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>On peut aussi convertir des permissions binaires en octales.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>permissions.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">perms</span> <span class="o">=</span> <span class="m-Bin">0b111101101</span>
+</span><span class='line'><span class="n">perms</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;chmod perms, &amp;lsquo;mon fichier&amp;rsquo;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Voilà, c'est simple n'est ce pas? Si vous avez des questions n'hésitez pas.</p>
+
+<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Comment se former à Ruby on Rails efficacement?]]></title>
